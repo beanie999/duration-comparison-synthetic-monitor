@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Secrets / local environment
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local files
+.claude/
